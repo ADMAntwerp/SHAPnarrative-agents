@@ -24,7 +24,7 @@ The framework comprises the _Narrator_, which generates and revises narratives b
 1. Clone repository:
 
 ```
-git clone https://github.com/ADMAntwerp/.....
+git clone https://github.com/ADMAntwerp/SHAPnarrative-agents/tree/clean
 ```
 
 2. Create a Python virtual environment:
