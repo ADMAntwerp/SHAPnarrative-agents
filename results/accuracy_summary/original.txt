@@ -1,0 +1,180 @@
+
+================================================================================
+🔹 Model: claude-sonnet-4-5-20250929
+================================================================================
+
+=== NA + FFE ===
+RA avg: 0.905, 0.970, 0.990
+SA avg: 0.957, 0.997, 1.000
+VA avg: 0.990, 0.995, 0.997
+👉 Overall accuracy avg (round_2): 0.996
+
+=== NA + FFE + FFC ===
+RA avg: 0.905, 0.950, 0.960
+SA avg: 0.960, 0.988, 0.993
+VA avg: 0.990, 0.995, 0.997
+👉 Overall accuracy avg (round_2): 0.983
+
+=== NA + FFE + FFC + CO ===
+RA avg: 0.905, 0.915, 0.860
+SA avg: 0.957, 0.982, 0.980
+VA avg: 0.990, 0.993, 0.997
+👉 Overall accuracy avg (round_2): 0.946
+
+=== NA + FFE + FFC(no LLM) ===
+RA avg: 0.905, 0.960, 0.960
+SA avg: 0.957, 0.993, 0.997
+VA avg: 0.990, 0.995, 0.997
+👉 Overall accuracy avg (round_2): 0.985
+
+=== NA + FFE + FFC(no LLM) + CO ===
+RA avg: 0.905, 0.900, 0.878
+SA avg: 0.957, 0.985, 0.985
+VA avg: 0.990, 0.990, 0.997
+👉 Overall accuracy avg (round_2): 0.953
+
+✅ Final average accuracy across all designs for claude-sonnet-4-5-20250929: 0.973
+
+================================================================================
+🔹 Model: mistral-medium-2508
+================================================================================
+
+=== NA + FFE ===
+RA avg: 0.898, 0.870, 0.887
+SA avg: 0.950, 0.965, 0.970
+VA avg: 0.990, 0.995, 0.995
+👉 Overall accuracy avg (round_2): 0.951
+
+=== NA + FFE + FFC ===
+RA avg: 0.897, 0.963, 0.975
+SA avg: 0.952, 0.990, 0.993
+VA avg: 0.990, 0.997, 0.997
+👉 Overall accuracy avg (round_2): 0.988
+
+=== NA + FFE + FFC + CO ===
+RA avg: 0.897, 0.790, 0.748
+SA avg: 0.952, 0.975, 0.977
+VA avg: 0.993, 0.995, 0.995
+👉 Overall accuracy avg (round_2): 0.907
+
+=== NA + FFE + FFC(no LLM) ===
+RA avg: 0.907, 0.955, 0.980
+SA avg: 0.952, 0.985, 0.990
+VA avg: 0.990, 0.995, 0.997
+👉 Overall accuracy avg (round_2): 0.989
+
+=== NA + FFE + FFC(no LLM) + CO ===
+RA avg: 0.903, 0.765, 0.770
+SA avg: 0.952, 0.975, 0.980
+VA avg: 0.988, 0.995, 0.997
+👉 Overall accuracy avg (round_2): 0.916
+
+✅ Final average accuracy across all designs for mistral-medium-2508: 0.950
+
+================================================================================
+🔹 Model: gpt-5-chat-latest
+================================================================================
+
+=== NA + FFE ===
+RA avg: 0.898, 0.945, 0.972
+SA avg: 0.965, 0.995, 0.997
+VA avg: 0.993, 0.995, 1.000
+👉 Overall accuracy avg (round_2): 0.990
+
+=== NA + FFE + FFC ===
+RA avg: 0.902, 0.940, 0.948
+SA avg: 0.965, 0.997, 1.000
+VA avg: 0.993, 0.992, 1.000
+👉 Overall accuracy avg (round_2): 0.982
+
+=== NA + FFE + FFC + CO ===
+RA avg: 0.893, 0.897, 0.875
+SA avg: 0.963, 0.993, 0.990
+VA avg: 0.993, 0.992, 0.997
+👉 Overall accuracy avg (round_2): 0.954
+
+=== NA + FFE + FFC(no LLM) ===
+RA avg: 0.885, 0.957, 0.968
+SA avg: 0.963, 0.997, 1.000
+VA avg: 0.993, 0.997, 1.000
+👉 Overall accuracy avg (round_2): 0.989
+
+=== NA + FFE + FFC(no LLM) + CO ===
+RA avg: 0.885, 0.922, 0.870
+SA avg: 0.963, 0.993, 0.988
+VA avg: 0.993, 0.997, 1.000
+👉 Overall accuracy avg (round_2): 0.953
+
+✅ Final average accuracy across all designs for gpt-5-chat-latest: 0.974
+
+================================================================================
+🔹 Model: meta-llama/llama-3.3-70b-instruct
+================================================================================
+
+=== NA + FFE ===
+RA avg: 0.857, 0.875, 0.863
+SA avg: 0.940, 0.960, 0.975
+VA avg: 0.993, 0.997, 1.000
+👉 Overall accuracy avg (round_2): 0.946
+
+=== NA + FFE + FFC ===
+RA avg: 0.875, 0.900, 0.927
+SA avg: 0.950, 0.950, 0.980
+VA avg: 0.993, 0.995, 0.997
+👉 Overall accuracy avg (round_2): 0.968
+
+=== NA + FFE + FFC + CO ===
+RA avg: 0.872, 0.768, 0.820
+SA avg: 0.953, 0.972, 0.960
+VA avg: 0.993, 0.985, 1.000
+👉 Overall accuracy avg (round_2): 0.927
+
+=== NA + FFE + FFC(no LLM) ===
+RA avg: 0.847, 0.912, 0.930
+SA avg: 0.940, 0.970, 0.990
+VA avg: 0.993, 0.993, 1.000
+👉 Overall accuracy avg (round_2): 0.973
+
+=== NA + FFE + FFC(no LLM) + CO ===
+RA avg: 0.865, 0.800, 0.730
+SA avg: 0.952, 0.972, 0.940
+VA avg: 0.993, 0.982, 1.000
+👉 Overall accuracy avg (round_2): 0.890
+
+✅ Final average accuracy across all designs for meta-llama/llama-3.3-70b-instruct: 0.941
+
+================================================================================
+🔹 Model: deepseek/deepseek-v3.2-exp
+================================================================================
+
+=== NA + FFE ===
+RA avg: 0.905, 0.943, 0.940
+SA avg: 0.960, 0.988, 0.980
+VA avg: 0.992, 0.988, 0.993
+👉 Overall accuracy avg (round_2): 0.971
+
+=== NA + FFE + FFC ===
+RA avg: 0.910, 0.988, 0.988
+SA avg: 0.950, 0.988, 0.985
+VA avg: 0.995, 0.995, 0.997
+👉 Overall accuracy avg (round_2): 0.990
+
+=== NA + FFE + FFC + CO ===
+RA avg: 0.922, 0.945, 0.922
+SA avg: 0.950, 0.967, 0.982
+VA avg: 0.992, 0.993, 0.997
+👉 Overall accuracy avg (round_2): 0.967
+
+=== NA + FFE + FFC(no LLM) ===
+RA avg: 0.912, 0.970, 0.978
+SA avg: 0.960, 0.980, 0.980
+VA avg: 0.992, 0.997, 1.000
+👉 Overall accuracy avg (round_2): 0.986
+
+=== NA + FFE + FFC(no LLM) + CO ===
+RA avg: 0.907, 0.938, 0.882
+SA avg: 0.950, 0.965, 0.948
+VA avg: 0.992, 0.997, 0.995
+👉 Overall accuracy avg (round_2): 0.942
+
+✅ Final average accuracy across all designs for deepseek/deepseek-v3.2-exp: 0.971
