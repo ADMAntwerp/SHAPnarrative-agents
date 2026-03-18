@@ -1,12 +1,12 @@
 import argparse
 import yaml
 import pandas as pd
-from shapnarrative_metrics.llm_tools.llm_wrappers import GptApi, ClaudeApi, MistralApi,DeepSeekApi, OpenRouterAPI
+from shapnarrative_agents.llm_tools.llm_wrappers import GptApi, ClaudeApi, MistralApi,DeepSeekApi, OpenRouterAPI
 import numpy as np
 import dill
 from dataclasses import dataclass
 from typing import Tuple
-from shapnarrative_metrics.experiment_management.experiment_manager_vote import AgenticExperimentManager
+from shapnarrative_agents.experiment_management.experiment_manager_vote import AgenticExperimentManager
 
 
 """THIS IS THE MAIN SCRIPT OF THE COHERENT AND COHERENT-RULE DESIGN, WITH ALL FOUR AGENTS. FOR ALL TYPES OF PARAMETERS AND COMBIANTIONS

@@ -2,8 +2,8 @@ from typing import Type
 import numpy as np
 import pandas as pd
 import shap
-from shapnarrative_metrics.llm_tools.llm_wrappers import LLMWrapper
-from shapnarrative_metrics.llm_tools.extraction import ExtractionModel
+from shapnarrative_agents.llm_tools.llm_wrappers import LLMWrapper
+from shapnarrative_agents.llm_tools.extraction import ExtractionModel
 
 class GenerationModel:
 

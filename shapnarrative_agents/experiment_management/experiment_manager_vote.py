@@ -8,14 +8,14 @@ import time
 import pickle
 from typing import Type
 from collections import Counter
-from shapnarrative_metrics.agents.prompt import Prompt
-from shapnarrative_metrics.agents.Narrator import NarratorAgent
-from shapnarrative_metrics.agents.FaithfulEvaluator import FaithfulEvaluator
-from shapnarrative_metrics.agents.FaithfulCritic import FaithfulCritic
+from shapnarrative_agents.agents.prompt import Prompt
+from shapnarrative_agents.agents.Narrator import NarratorAgent
+from shapnarrative_agents.agents.FaithfulEvaluator import FaithfulEvaluator
+from shapnarrative_agents.agents.FaithfulCritic import FaithfulCritic
 from script.logger_utils import log_with_context   
-from shapnarrative_metrics.agents.Coherence import CoherenceAgent
-from shapnarrative_metrics.llm_tools.llm_wrappers import LLMWrapper
-from shapnarrative_metrics.experiment_management.experiment_dataclass_agentic_coherence import AgenticNarrativeExperiment
+from shapnarrative_agents.agents.Coherence import CoherenceAgent
+from shapnarrative_agents.llm_tools.llm_wrappers import LLMWrapper
+from shapnarrative_agents.experiment_management.experiment_dataclass_agentic_coherence import AgenticNarrativeExperiment
 
 
 class AgenticExperimentManager:

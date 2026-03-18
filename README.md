@@ -15,8 +15,8 @@ The framework comprises the _Narrator_, which generates and revises narratives b
 | data                   | Preprocessed datasets, baseline narratives, and other resources used by experiments.          |
 | notebook | A four-agent-system notebook for quick test and analysis.            |
 | results                 | Output directory for experiments, accuracy results, and bar chart in paper.            |
-| script                 | Modules to actually run the code from shapnarrative_metrics and generate the narratives and compute faithfulness.            |
-| shapnarrative_metrics  | Core Python package implementing the multi-agent framework, LLM wrappers, faithfulness metrics, and experiment management logic.            |
+| script                 | Modules to actually run the code from shapnarrative_agents and generate the narratives and compute faithfulness.            |
+| shapnarrative_agents  | Core Python package implementing the multi-agent framework, LLM wrappers, faithfulness metrics, and experiment management logic.            |
 
 
 ### 2.1 Set-up
@@ -59,7 +59,7 @@ python -m script.experiments.compute_metrics_local_agentic
 ```
 
 
-### 2.3 shapnarrative_metrics
+### 2.3 shapnarrative_agents
 This package implements the core components of the multi-agent narrative generation framework:
 
 - **`agents/`** – definitions of the different agent types used in experiments (the _Narrator_, the _Faithful Evaluator_, the _Faithful Critic_, and the _Coherence Agent_).

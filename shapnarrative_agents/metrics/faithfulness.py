@@ -3,9 +3,9 @@ import pandas as pd
 import pickle
 import dill
 from dataclasses import dataclass, asdict
-from shapnarrative_metrics.llm_tools.extraction import ExtractionModel
-# from shapnarrative_metrics.agents.FaithfulEvaluator import FaithfulEvaluator
-from shapnarrative_metrics.experiment_management.experiment_dataclass import NarrativeExperiment, ExperimentMetrics
+from shapnarrative_agents.llm_tools.extraction import ExtractionModel
+# from shapnarrative_agents.agents.FaithfulEvaluator import FaithfulEvaluator
+from shapnarrative_agents.experiment_management.experiment_dataclass import NarrativeExperiment, ExperimentMetrics
 from typing import Union, Type, Tuple
 import argparse
 from scipy.stats import kendalltau

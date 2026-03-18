@@ -2,7 +2,7 @@ from typing import Type, Tuple, Optional,List, Sequence
 import pandas as pd
 import shap
 import numpy as np
-from shapnarrative_metrics.llm_tools.llm_wrappers import LLMWrapper
+from shapnarrative_agents.llm_tools.llm_wrappers import LLMWrapper
 import json
 from .LLMBaseAgent import LLMBaseAgent
 import re

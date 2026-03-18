@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from shapnarrative_metrics.agents.LLMBaseAgent import LLMBaseAgent
+from shapnarrative_agents.agents.LLMBaseAgent import LLMBaseAgent
 from typing import Optional, Any, Dict
 
 class FaithfulCritic(LLMBaseAgent):

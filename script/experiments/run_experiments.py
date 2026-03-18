@@ -1,12 +1,12 @@
 import argparse
 import yaml
 import pandas as pd
-from shapnarrative_metrics.llm_tools.llm_wrappers import GptApi, ClaudeApi, MistralApi,DeepSeekApi, OpenRouterAPI
-from shapnarrative_metrics.llm_tools.generation import GenerationModel
-from shapnarrative_metrics.experiment_management.experiment_manager_no_baseline import ExperimentManager
-from shapnarrative_metrics.experiment_management.experiment_dataclass import NarrativeExperiment
-# from shapnarrative_metrics.llm_tools.embedding_wrappers import EmbedWrapper, VoyageEmbedder
-from shapnarrative_metrics.misc_tools.manipulations import full_inversion, shap_permutation
+from shapnarrative_agents.llm_tools.llm_wrappers import GptApi, ClaudeApi, MistralApi,DeepSeekApi, OpenRouterAPI
+from shapnarrative_agents.llm_tools.generation import GenerationModel
+from shapnarrative_agents.experiment_management.experiment_manager_no_baseline import ExperimentManager
+from shapnarrative_agents.experiment_management.experiment_dataclass import NarrativeExperiment
+# from shapnarrative_agents.llm_tools.embedding_wrappers import EmbedWrapper, VoyageEmbedder
+# from shapnarrative_agents.misc_tools.manipulations import full_inversion, shap_permutation
 import json
 import numpy as np
 import pickle

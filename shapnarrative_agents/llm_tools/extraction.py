@@ -4,7 +4,7 @@ from typing import Type, Tuple
 import pandas as pd
 import shap
 import numpy as np
-from shapnarrative_metrics.llm_tools.llm_wrappers import LLMWrapper
+from shapnarrative_agents.llm_tools.llm_wrappers import LLMWrapper
 import json
 
 class ExtractionModel:

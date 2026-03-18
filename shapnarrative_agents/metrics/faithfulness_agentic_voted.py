@@ -1,8 +1,8 @@
 import numpy as np
 import pandas as pd
 from dataclasses import asdict
-from shapnarrative_metrics.agents.FaithfulEvaluator import FaithfulEvaluator
-from shapnarrative_metrics.experiment_management.experiment_dataclass_agentic_coherence import AgenticNarrativeExperiment, ExperimentMetrics
+from shapnarrative_agents.agents.FaithfulEvaluator import FaithfulEvaluator
+from shapnarrative_agents.experiment_management.experiment_dataclass_agentic_coherence import AgenticNarrativeExperiment, ExperimentMetrics
 from typing import Type
 
 

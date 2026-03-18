@@ -1,10 +1,10 @@
 import pandas as pd
 import pickle
-from shapnarrative_metrics.llm_tools.llm_wrappers import LLMWrapper
-from shapnarrative_metrics.llm_tools.generation import GenerationModel
+from shapnarrative_agents.llm_tools.llm_wrappers import LLMWrapper
+from shapnarrative_agents.llm_tools.generation import GenerationModel
 from typing import Type
-from shapnarrative_metrics.llm_tools.extraction import ExtractionModel
-from shapnarrative_metrics.experiment_management.experiment_dataclass import NarrativeExperiment
+from shapnarrative_agents.llm_tools.extraction import ExtractionModel
+from shapnarrative_agents.experiment_management.experiment_dataclass import NarrativeExperiment
 import itertools
 import time
 from dataclasses import asdict

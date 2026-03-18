@@ -4,7 +4,7 @@ import pandas as pd
 import shap
 import numpy as np
 import time
-from shapnarrative_metrics.llm_tools.llm_wrappers import LLMWrapper
+from shapnarrative_agents.llm_tools.llm_wrappers import LLMWrapper
 from script.logger_utils import log_with_context
 
 class FaithfulEvaluator:

@@ -1,5 +1,5 @@
 import dill
-from shapnarrative_metrics.metrics.faithfulness_agentic_voted import compute_faithfulness_agentic
+from shapnarrative_agents.metrics.faithfulness_agentic_voted import compute_faithfulness_agentic
 import argparse
 
 

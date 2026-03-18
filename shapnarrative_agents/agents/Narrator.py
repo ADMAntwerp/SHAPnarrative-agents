@@ -1,5 +1,5 @@
 from .LLMBaseAgent import LLMBaseAgent
-from shapnarrative_metrics.llm_tools.llm_wrappers import LLMWrapper
+from shapnarrative_agents.llm_tools.llm_wrappers import LLMWrapper
 import re
 
 
