@@ -69,6 +69,16 @@ This package implements the core components of the multi-agent narrative generat
 
 
 ## 3. Citation
-
+```
+@misc{he2026agenticapproachgeneratingxainarratives,
+      title={An Agentic Approach to Generating XAI-Narratives}, 
+      author={Yifan He and David Martens},
+      year={2026},
+      eprint={2603.20003},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2603.20003}, 
+}
+```
 
 Note. This README focuses on the script and package structure; for high‑level descriptions of the research and methodology, refer to the paper or project documentation.
