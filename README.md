@@ -1,6 +1,9 @@
 # An Agentic Approach to Generating XAI-Narratives 
 **Yifan He, David Martens. University of Antwerp, Belgium**
 
+Arxiv: https://arxiv.org/abs/2603.20003
+
+
 In this repository, we propose a multi-agent framework for XAI narrative generation and refinement. 
 The framework comprises the _Narrator_, which generates and revises narratives based on feedback from multiple critic agents on faithfulness and coherence metrics, thereby enabling narrative improvement through iteration.
 
